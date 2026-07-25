@@ -3,10 +3,11 @@
   "version": "1.8.17",
   "main": "./lib/main",
   "description": "Display information about the current editor such as cursor position, file path, grammar, current branch, ahead/behind commits counts, and line diff count.",
-  "repository": "https://github.com/atom/status-bar",
+  "repository": "https://github.com/builtbygio/status-bar",
   "license": "MIT",
   "engines": {
-    "atom": "*"
+    "atom": "*",
+    "chevron": "*"
   },
   "dependencies": {
     "fs-plus": "^3.0.1",
